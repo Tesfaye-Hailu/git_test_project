@@ -12,4 +12,13 @@ const calculateArea = (l,w) => {
     console.log(area);
   }
   
-  calculateArea(5,4); // logs 20 to the console
+  calculateArea(5,4); 
+
+  
+
+  const convertFtoC = (tempF) {
+    let tempC = (tempF - 32) * 5/9;
+    console.log (tempC);
+  }
+  
+  ConvertFtoC (100)
